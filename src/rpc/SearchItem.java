@@ -46,10 +46,11 @@ public class SearchItem extends HttpServlet {
 			return;
 		}
     
-    // Get the latitude and longtitude from request
+    		// Get the latitude and longtitude from request
 		double lat = Double.parseDouble(request.getParameter("lat"));
 		double lon = Double.parseDouble(request.getParameter("lon"));
 		
+		// The keyword determines the search range
 		String keyWord = request.getParameter("term");
 		
 		String userId = request.getParameter("user_id");
