@@ -57,6 +57,7 @@ public class Item {
 		}
 		return obj;
 	}
+	
 	public static class ItemBuilder {
 		private String itemId;
 		private String name;
@@ -118,6 +119,7 @@ public class Item {
 			return true;
 		}
 	}
+	
 	private Item(ItemBuilder builder) {
 		this.itemId = builder.itemId;
 		this.name = builder.name;
