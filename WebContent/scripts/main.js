@@ -4,7 +4,7 @@
      * Variables
      */
     var user_id = '1111';
-    var user_fullname = 'John';
+    var user_fullname = 'Gary';
     var lng = -122.08;
     var lat = 37.38;
 
@@ -19,11 +19,6 @@
 		$('recommend-btn').addEventListener('click', loadRecommendedItems);
 
 		validateSession();
-
-		// onSessionValid({
-		// user_id : '1111',
-		// name : 'John Smith'
-		// });
 
 		var welcomeMsg = $('welcome-msg');
 		welcomeMsg.innerHTML = 'Welcome, ' + user_fullname;
