@@ -1,4 +1,4 @@
-# Java-web-service-Event-recommendation
+# Mars - a Java webservice for Event Recommendation
 The web page is designed for user to search events and purchase tickets. Users can also receive recommendations based on their search history and favorite events.
 
 ## Front-end development
