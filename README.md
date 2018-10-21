@@ -18,3 +18,4 @@ password: 2222
 ## TODO List
 - Registration
 - Recommendation based on machine learning algorithms
+- Other events recommendation(Attraction) according to TicketMaster API
