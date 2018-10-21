@@ -11,6 +11,10 @@ Apache Tomcat is used for local hosting and the data about the users(username, p
 In order to check the scalibility of the website, I uploaded the project onto Amazon EC2 and used JMeter to test its QPS. It turned out that the website can handle 200+ query per second.
 
 ## The final website page can be viewed at:
-http://54.219.191.154/Jupiter/  
+http://54.219.191.154/Mars/
 login username: 1111
 password: 2222
+
+## TODO List
+- Registration
+- Recommendation based on machine learning algorithms
