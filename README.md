@@ -8,12 +8,13 @@ The website is built by HTML, CSS and JavaScript based on AJAX.
 Apache Tomcat is used for local hosting and the data about the users(username, password, last login date, favorite history, etc.) is stored by MySQL.
 
 ## Deployment on EC2 and JMeter testing
-In order to check the scalibility of the website, I uploaded the project onto Amazon EC2 and used JMeter to test its QPS. It turned out that the website can handle 200+ query per second.
+In order to check the scalibility of the website, I uploaded the project onto Amazon EC2 and used JMeter to test its QPS. It turned out that the website can handle 200+ query per second. (The website is down since I ran out of my AWS free tier usage.)
 
-## The final website page can be viewed at:
-http://54.219.191.154/Mars/
-login username: 1111
-password: 2222
+## Login Page
+![image](https://github.com/seuygr/Mars-Event-recommendation/blob/master/images/Login.png)
+
+## Favorite Events
+![image](https://github.com/seuygr/Mars-Event-recommendation/blob/master/images/Favorite.png)
 
 ## TODO List
 - Registration
