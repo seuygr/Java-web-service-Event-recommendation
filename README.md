@@ -10,11 +10,16 @@ Apache Tomcat is used for local hosting and the data about the users(username, p
 ## Deployment on EC2 and JMeter testing
 In order to check the scalibility of the website, I uploaded the project onto Amazon EC2 and used JMeter to test its QPS. It turned out that the website can handle 200+ query per second. (The website is down since I ran out of my AWS free tier usage.)
 
-## Login Page
+## Login Page and Searching
 ![image](https://github.com/seuygr/Mars-Event-recommendation/blob/master/images/Login.png)
+![image](https://github.com/seuygr/Mars-Event-recommendation/blob/master/images/Search.png)
 
-## Favorite Events
+
+
+## Favorite Events and Recommendation
 ![image](https://github.com/seuygr/Mars-Event-recommendation/blob/master/images/Favorite.png)
+![image](https://github.com/seuygr/Mars-Event-recommendation/blob/master/images/Recommendation.png)
+
 
 ## TODO List
 - Registration
